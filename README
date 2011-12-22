@@ -1,0 +1,20 @@
+Example on how to use python-android's cookbooks
+
+install the required gems:
+    bundle install
+
+start vagrant instance:
+    vagrant up
+    ... take coffee break ...
+    vagrant ssh
+
+create virtualenv and install some packages
+    cd source/python-android
+    mkvirtualenv someapp --no-site-packages
+    workon someapp
+    ./pip_install.sh python-twitter
+        or
+    ./pip_install.sh -r requirements.txt
+
+    some working packages I have tested out:
+        python-twitter SQLAlchemy twisted
