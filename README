@@ -16,5 +16,5 @@ create virtualenv and install some packages
         or
     ./pip_install.sh -r requirements.txt
 
-    some working packages I have tested out:
-        python-twitter SQLAlchemy twisted
+Some working packages I have tested out:
+    python-twitter SQLAlchemy twisted
