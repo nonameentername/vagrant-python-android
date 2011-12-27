@@ -16,5 +16,6 @@ Vagrant::Config.run do |config|
     chef.add_recipe "android-ndk"
     chef.add_recipe "python-android"
     chef.add_recipe "bullet-android"
+    chef.add_recipe "pybullet-android"
   end
 end
