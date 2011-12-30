@@ -13,6 +13,7 @@ Vagrant::Config.run do |config|
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = ["cookbooks"]
     chef.add_recipe "main"
+    chef.add_recipe "android-sdk"
     chef.add_recipe "android-ndk"
     chef.add_recipe "python-android"
     chef.add_recipe "bullet-android"
