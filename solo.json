@@ -1,12 +1,7 @@
 {
     "settings": {
-<<<<<<< HEAD
         "user": "vagrant",
         "src_dir": "/home/vagrant/source"
-=======
-        "user": "wmendiza",
-        "src_dir": "/home/wmendiza/research/vagrant/android/source"
->>>>>>> cf54420cfd4b92b7e7ec990600bbe83068038841
     },
     "run_list": [
         "recipe[main]",
