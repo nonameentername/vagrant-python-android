@@ -1,0 +1,15 @@
+{
+    "settings": {
+        "user": "vagrant",
+        "src_dir": "/home/vagrant/source"
+    },
+    "run_list": [
+        "recipe[main]",
+        "recipe[android-sdk]",
+        "recipe[android-ndk]",
+        "recipe[python-android]",
+        "recipe[bullet-android]",
+        "recipe[pybullet-android]",
+        "recipe[pyirrlicht-android]"
+    ]
+}

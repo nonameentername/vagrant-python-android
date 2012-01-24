@@ -18,3 +18,8 @@ create virtualenv and install some packages
 
 Some working packages I have tested out:
     python-twitter SQLAlchemy twisted
+
+
+Install on actual machine without vagrant:
+    sudo apt-get install chef
+    chef-solo -c solo.rb -j solo.json
